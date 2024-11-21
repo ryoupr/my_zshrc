@@ -124,12 +124,11 @@ alias deac='deactivate'
 
 
 # Git aliases
-alias g="git "
 alias gp="git pull "
 alias gc="git commit -m "
 
-# Easy restart $SHELL
-alias es="exec $SHELL"
+# Easy reload .zshrc
+alias re="source ~/.zshrc"
 
 
 
