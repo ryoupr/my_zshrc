@@ -125,9 +125,8 @@ alias deac='deactivate'
 
 # Git aliases
 alias g="git "
-alias gc="git checkout "
 alias gp="git pull "
-alias gcom="git commit -m "
+alias gc="git commit -m "
 
 # Easy restart $SHELL
 alias es="exec $SHELL"
@@ -145,9 +144,6 @@ compinit
 # direnv setting
 eval "$(direnv hook zsh)"
 
-
-# make it dynamodb table name 
-export SESSION_TABLE_NAME="make-it-staging-session-table"
 
 
 
