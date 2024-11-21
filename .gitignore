@@ -1,0 +1,7 @@
+# すべてのファイルを無視
+*
+
+# 特定のファイルを許可
+!.gitignore
+!.zshrc
+!README.md
